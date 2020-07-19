@@ -13,5 +13,9 @@
     <RepositoryUrl>https://github.com/sethiharish/OnlineShop.Data</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="OnlineShop.Entities" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
