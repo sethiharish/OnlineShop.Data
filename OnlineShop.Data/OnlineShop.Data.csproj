@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <PackageId>OnlineShop.Data</PackageId>
+    <Version>1.0.0</Version>
+    <Title>OnlineShop Data</Title>
+    <Authors>Harish Sethi</Authors>
+    <Company>JMD</Company>
+    <PackageDescription>This package contains the data service contracts for accessing OnlineShop data</PackageDescription>
+    <PackageTags>OnlineShop Data Services (Contracts)</PackageTags>
+    <RepositoryUrl>https://github.com/sethiharish/OnlineShop.Data</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
