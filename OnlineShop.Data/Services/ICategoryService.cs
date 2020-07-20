@@ -9,5 +9,7 @@ namespace OnlineShop.Data.Services
         Task<Category> GetCategoryAsync(int categoryId);
 
         Task<IEnumerable<Category>> GetCategoriesAsync();
+
+        Task<Category> GetCategoryByNameAsync(string category);
     }
 }
