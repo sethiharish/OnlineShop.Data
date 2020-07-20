@@ -11,5 +11,7 @@ namespace OnlineShop.Data.Services
         Task<IEnumerable<Pie>> GetPiesAsync();
 
         Task<IEnumerable<Pie>> GetPiesOfTheWeekAsync();
+
+        Task<IEnumerable<Pie>> GetPiesByCategoryAsync(string category);
     }
 }
